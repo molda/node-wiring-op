@@ -17,7 +17,6 @@
 #include "pcf8591.h"
 #include "sn3218.h"
 #include "sr595.h"
-#include "pca9685.h"
 
 IMPLEMENT_EXPORT_INIT(extensions) {
   INIT(dac7678);
@@ -36,5 +35,4 @@ IMPLEMENT_EXPORT_INIT(extensions) {
   INIT(pcf8574);
   INIT(pcf8591);
   INIT(sr595);
-  INIT(pca9685);
 }
