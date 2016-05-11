@@ -1,6 +1,5 @@
 #include "extensions.h"
 
-#include "dac7678.h"
 #include "drcSerial.h"
 #include "max5322.h"
 #include "max31855.h"
@@ -19,7 +18,6 @@
 #include "sr595.h"
 
 IMPLEMENT_EXPORT_INIT(extensions) {
-  INIT(dac7678);
   INIT(drcSerial);
   INIT(max5322);
   INIT(max31855);
